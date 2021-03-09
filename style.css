@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #171a20;
+    max-width: 1800px;
+    height: 104px;
+}

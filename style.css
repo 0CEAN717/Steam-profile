@@ -6,4 +6,21 @@ header {
     background-color: #171a20;
     max-width: 1800px;
     height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo-steam img {
+    width: 175px;
+    height: 45px;
+}
+
+nav a {
+    color: #848485;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 10px 7px;
 }

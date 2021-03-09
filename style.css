@@ -19,6 +19,7 @@ header {
 }
 
 nav a {
+    margin: 0px 0px 0px 25px;
     color: #848485;
     text-decoration: none;
     text-transform: uppercase;
@@ -36,12 +37,14 @@ nav a {
     height: 24px;
     margin: 5px 10px 0px 0px;
     background-color: #616a72;
-    text-align: center;
+    text-align: end;
     display: table-cell;
     vertical-align: middle;
 }
 
 .header-install-btn a {
+    padding: 0px 15px 0px 0px;
+    font-size: 12px;
     text-decoration: none;
     color: #e5e4dc;
 }
@@ -62,17 +65,51 @@ nav a {
 }
 
 .header_menu_nickname {
-    width: 77px;
+    width: 40px;
     height: 24px;
     margin: 5px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header_menu_nickname p {
+.header_menu_nickname a {
     color: #848485;
-    font-size: 13px;
-    text-align: center;
-    margin: 0;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.header-arrow-down {
+    width: 2px;
+    height: 24px;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-avatar {
+    width: 36px;
+    height: 36px;
+    margin: 5px 10px 0px 0px;
+    background-color: rgb(56, 54, 54);
+    border: 2px solid rgb(63, 63, 240);
+}
+
+.header-menu-money {
+    height: 16px;
+    width: 40px;   
+}
+
+.header-menu-money a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #848485;
+}
+
+main {
+    max-width: 976px;
+    min-height: 224px;
+    margin: 0 auto;
+    background-color: #171717;
 }

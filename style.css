@@ -12,9 +12,9 @@ header {
     box-sizing: border-box;
 }
 
-.logo-steam img {
-    width: 175px;
-    height: 45px;
+.header-logo-steam img {
+    width: 176px;
+    height: 44px;
 }
 
 nav a {
@@ -23,4 +23,24 @@ nav a {
     text-transform: uppercase;
     font-family: sans-serif;
     padding: 10px 7px;
+}
+
+.header-user-info {
+width: 300px;
+height: 104px;
+}
+
+.header-install-btn {
+    width: 130px;
+    height: 24px;
+
+    background-color: #616a72;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-install-btn a {
+    text-decoration: none;
+    color: #e5e4dc;
 }
